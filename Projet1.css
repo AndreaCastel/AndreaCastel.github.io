@@ -12,7 +12,23 @@ body{
 .nav{
     font-weight: bolder;
     color: #1f7a8c;
-    list-style: none;
+    }
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: greenyellow;
 }
 
 
@@ -27,7 +43,7 @@ body{
 .header{
     font-size: 5vh;
     font-weight: bolder;
-    margin-top: 10vh ;
+    margin-top: 5vh ;
     color: #fbda22;
 }
 
@@ -37,20 +53,37 @@ body{
     margin-bottom: 10vh;
     color: darkred;
 }
+.animaux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30vh;
+    margin-bottom: 40vh;
+}
 
 .Kaeffer{
+    border: black solid 2px;
     border-radius: 4em;
     max-width: 100%;
     height: auto;
+    opacity: 75%;
+    position: relative;
+    z-index: 2;
 }
 
 .Jevrey{
+    border: black solid 2px;
     border-radius: 2em;
     max-width: 100%;
     height: auto;
-}
+    opacity: 75%;
+    position: relative;
+    z-index: 2;
+ }
+
 
 .maison{
+    
     margin-top: 3vh;
     margin-left: auto;
     margin-right: auto;
@@ -58,6 +91,9 @@ body{
     align-items: center;
     max-width: 100%;
     height: auto;
+    position:absolute;
+    z-index: 1;
+    
  }
 
 .contactform{
