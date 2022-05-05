@@ -9,6 +9,9 @@ body{
     background-repeat: no-repeat;
 }
 
+
+/*page "accueil"*/
+
 .nav{
     font-weight: bolder;
     color: #1f7a8c;
@@ -127,5 +130,21 @@ ul{
     color: black;
 }
 
+/*page "tourisme"*/
+
+#tourisme h1{
+    color: darkred;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+
+#tourisme p{
+    font-size: 2vh;
+    color: white;
+}
 
 
+.Calonne{
+    
+    margin-top: 5vh;
+}
