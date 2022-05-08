@@ -182,17 +182,27 @@ ul{
    
 }
 
-/*.images{
-    display: flex;
-    flex-direction: column;
-}*/
+img{
+    width : 200px 
+    height : 200px
+    transition: transform .1s;
+    margin : 20px
+}
+
+img:hover{
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5);
+}
 
 .carte1{
     margin-top: 50px;
+    margin-right: 100px;
 }
 
 .carte2{
     margin-top: 50px;
+    margin-left: 100px;
 }
 
 
