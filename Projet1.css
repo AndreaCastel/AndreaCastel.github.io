@@ -61,13 +61,12 @@ a:active {
     border-bottom: 10px solid #2e1b27;
 }
 
-
 .accueil{
     font-size: 4vh ;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin: 150px 10px 10px 20px;
     color: darkred;
 }
+
 .animaux{
     display: flex;
     justify-content: space-around;
@@ -122,13 +121,13 @@ a:active {
 
 input{
     background-color: green;
-    width: 60%;
+    width: 40%;
     height: 20%;
 }
 
 textarea{
     background-color:green;
-    width: 60%;
+    width: 40%;
     height: 80%;
 }
 
@@ -149,15 +148,15 @@ ul{
 #tourisme h1{
     color: darkred;
     font-weight: bolder;
-    font-size: 3.2vh;
-    margin-top: 20vh;
+    font-size: 4vh;
+    margin: 100px 25px 100px 25px;
 }
 
 #tourisme p{
     margin: 100px 25px 100px 25px;
-    font-size: 3vh;
+    font-size: 3.5vh;
     color: white;
-    //background-color: darkolivegreen;//
+    
 }
 
 
@@ -167,7 +166,34 @@ ul{
 }
 
 
+/*page "cartes"*/
 
+#cartes h1{
+    color: darkred;
+    font-weight: bolder;
+    font-size: 4vh;
+    margin: 50px 25px 100px 25px;
+}
+
+#cartes p{
+    margin: 50px 25px 100px 25px;
+    font-size: 3vh;
+    color: white;
+   
+}
+
+/*.images{
+    display: flex;
+    flex-direction: column;
+}*/
+
+.carte1{
+    margin-top: 50px;
+}
+
+.carte2{
+    margin-top: 50px;
+}
 
 
  
