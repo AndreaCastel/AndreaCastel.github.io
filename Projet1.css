@@ -159,10 +159,9 @@ ul{
     
 }
 
-
-.Calonne{
-
-    margin-top: 10vh;
+.calonne{
+    transition: none;
+    margin-top: 20vh;
 }
 
 
@@ -184,9 +183,9 @@ ul{
 
 img{
     width : 200px 
-    height : 200px
+    height: 200px
     transition: transform .1s;
-    margin : 20px
+    margin: 20px
 }
 
 img:hover{
