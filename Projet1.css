@@ -1,5 +1,3 @@
-
-
 body{
     margin: 0;
     padding: 0;
@@ -59,6 +57,12 @@ a:active {
     font-size: 3vh;
     margin-top: 0px;
     border-bottom: 10px solid #2e1b27;
+}
+
+#bienvenue h1{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .accueil{
@@ -156,13 +160,49 @@ ul{
     margin: 100px 25px 100px 25px;
     font-size: 3.5vh;
     color: white;
-    
+}
+#tourisme img{
+    width : 200px 
+    height: 200px
+    transition: transform .1s;
+    margin: 20px
 }
 
-.calonne{
-    transition: none;
-    margin-top: 20vh;
+#tourisme img:hover{
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5);
 }
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lieuxinsolites{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.lieuxinsolites a{
+    color: yellow;
+    font-size: larger;
+}
+
+#tourisme h2{
+    color: darkred;
+    font-weight: bolder;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*page "cartes"*/
@@ -181,14 +221,14 @@ ul{
    
 }
 
-img{
+#cartes img{
     width : 200px 
     height: 200px
     transition: transform .1s;
     margin: 20px
 }
 
-img:hover{
+#cartes img:hover{
     -ms-transform: scale(2.5); /* IE 9 */
     -webkit-transform: scale(2.5); /* Safari 3-8 */
     transform: scale(2.5);
