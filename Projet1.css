@@ -67,7 +67,7 @@ a:active {
 
 .accueil{
     font-size: 4vh ;
-    margin: 150px 10px 10px 20px;
+    margin: 30px 10px 10px 20px;
     color: darkred;
 }
 
@@ -100,9 +100,8 @@ a:active {
  }
 
 
-.maison{
-    
-    margin-top: 3vh;
+.maison{ 
+    margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -110,9 +109,8 @@ a:active {
     max-width: 100%;
     height: auto;
     position:absolute;
-    z-index: 1;
-    
- }
+    z-index: 1;   
+}
 
 .contactform{
     display: flex;
@@ -157,7 +155,7 @@ ul{
 }
 
 #tourisme p{
-    margin: 100px 25px 100px 25px;
+    margin: 30px 25px 50px 25px;
     font-size: 3.5vh;
     color: white;
 }
@@ -222,10 +220,10 @@ ul{
 }
 
 #cartes img{
-    width : 200px 
-    height: 200px
+    width : 130px;
+    height: 130px;
     transition: transform .1s;
-    margin: 20px
+    margin: 20px;
 }
 
 #cartes img:hover{
@@ -245,4 +243,4 @@ ul{
 }
 
 
- 
+/*page "photos"*/
