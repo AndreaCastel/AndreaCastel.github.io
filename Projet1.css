@@ -150,20 +150,21 @@ ul{
 #tourisme h1{
     color: darkred;
     font-weight: bolder;
-    font-size: 4vh;
+    font-size: 5vh;
     margin: 100px 25px 100px 25px;
 }
 
 #tourisme p{
-    margin: 30px 25px 50px 25px;
-    font-size: 3.5vh;
+    margin: 130px 25px 50px 25px;
+    font-size: 3vh;
     color: white;
 }
+
 #tourisme img{
-    width : 200px 
-    height: 200px
+    width : 200px; 
+    height : 200px;
     transition: transform .1s;
-    margin: 20px
+    margin: 20px;
 }
 
 #tourisme img:hover{
@@ -183,7 +184,7 @@ ul{
 }
 .lieuxinsolites a{
     color: yellow;
-    font-size: larger;
+    font-size: 3vw;
 }
 
 #tourisme h2{
@@ -191,6 +192,7 @@ ul{
     font-weight: bolder;
     font-size: 4vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
 }
@@ -227,8 +229,8 @@ ul{
 }
 
 #cartes img:hover{
-    -ms-transform: scale(2.5); /* IE 9 */
-    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    -ms-transform: scale(2.5); 
+    -webkit-transform: scale(2.5); 
     transform: scale(2.5);
 }
 
