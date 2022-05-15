@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("Images.jpg/vue3.JPG");
+    background-image: url("Images.jpg/Backgroundprojet1.jpg");
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body{
 .nav{
     margin-top:-20vh;
     font-weight: bolder;
-    color: #1f7a8c;
+    color: #fbda22;
     display: flex;
     justify-content: left;
 }
@@ -30,7 +30,7 @@ a:link {
     color: black;
 }
 a:visited {
-    color: gray;
+    color: #fbda22;
 }
 a:hover {
     color: red;
@@ -68,7 +68,7 @@ a:active {
 .accueil{
     font-size: 4vh ;
     margin: 30px 10px 10px 20px;
-    color: darkred;
+    color: #fbda22;
 }
 
 .animaux{
@@ -119,6 +119,7 @@ a:active {
     margin-top: 20vh;
     font-size: x-large;
     font-weight: bolder;
+    color: #fbda22;
 }
 
 input{
@@ -140,7 +141,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: black;
+    color: #fbda22;
 }
 
 
@@ -164,7 +165,7 @@ ul{
     width : 200px; 
     height : 200px;
     transition: transform .1s;
-    margin: 20px;
+    margin: 10px;
 }
 
 #tourisme img:hover{
@@ -203,7 +204,23 @@ ul{
     align-items: center;
 }
 
-
+@media (max-width: 768px) {
+    #tourisme img {
+        width : 40px; 
+        height : 40px;
+    }
+    #tourisme img:hover{
+        -ms-transform: scale(5); 
+        -webkit-transform: scale(5);
+        transform: scale(5);
+    }
+    #tourisme h2{
+        font-size: 3vh;
+        margin-top: 30px;
+    }
+    #tourisme p{
+        margin: 80px 25px 50px 25px;
+  }
 
 /*page "cartes"*/
 
@@ -245,7 +262,7 @@ ul{
 }
 
 
-/*page "photos"*/
+/*page "maison"*/
 
 #photos p{
     color: darkred;
