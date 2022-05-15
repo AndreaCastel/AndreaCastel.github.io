@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Images.jpg/Backgroundprojet1.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 300% 350%;
+    background-repeat: no-repeat;
+}
+
+
+.nav{
+    margin-top:-20vh;
+    font-weight: bolder;
+    color: #fbda22;
+    display: flex;
+    justify-content: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: #fbda22;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: greenyellow;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -5vh;
+}
+
+#header {
+    width: 100%;
+    background:#080808;
+    color: #fbda22;
+    padding:8px 0;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 0px;
+    border-bottom: 10px solid #2e1b27;
+}
+h1{
+    color: #fbda22;
+    font-weight: bolder;
+    font-size: 5vh;
+    margin: 100px 25px 50px 25px;
+}
+
+p{
+    color: white;
+    font-size: 4vh ;
+}
+
+
+.custom-slider { display: none; }
+.slide-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:  #fbda22;
+    font-size: 70px;
+    background-color: rgba(0,0,0,0);
+    transition: background-color 0.6s ease;
+}
+.prev{ left: -70px; }
+.next { right: -70px; }
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+.slide-text {
+    position: absolute;
+    color:  #fbda22;
+    font-size: 30px;
+    padding: 20px;
+    bottom: - 75px;
+    width: 100%;
+    text-align: center;
+}
+.slide-index {
+    color:  #fbda22;
+    font-size: 30px;
+    padding: 60px;
+    position: absolute;
+    top: 0;
+}
+.slide-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.slide-dot{ text-align: center; }
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #999999;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover { background-color: #111111; }
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.custom-slider img{
+    margin-top: 150px;
+    border: black solid 0.2em;
+    border-radius: 1em;
+}
+
+ul{
+    margin-top: 30vh;
+    font-size: 2.2vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fbda22;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    img {
+        width : 50%; 
+        height : 50%;
+    }
+    p{
+        font-size: 2vh;
+        margin : 30px;
+    }
+    .nav{
+        margin-top: -100px;
+    }
+    h1{
+        font-size: 3vh;
+    }
+    .slide-index {
+        font-size: 15px;
+    }
+    .slide-text {
+        font-size: 15px;
+    }
+    .prev, .next {
+        width: 30px;
+        height: 30px;
+        font-size: 35px;
+    }
+    .prev{ left: +30px; }
+    .next { right: +30px; }
+}

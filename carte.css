@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Images.jpg/Backgroundprojet1.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 300% 350%;
+    background-repeat: no-repeat;
+}
+
+
+
+.nav{
+    margin-top: -100px;
+    font-weight: bolder;
+    color: #fbda22;
+    display: flex;
+    justify-content: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: #fbda22;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: greenyellow;
+}
+
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: -5vh;
+}
+
+#header {
+    width: 100%;
+    background:#080808;
+    color: #fbda22;
+    padding:8px 0;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 0px;
+    border-bottom: 10px solid #2e1b27;
+}
+
+
+h1{
+    color: #fbda22;
+    font-weight: bolder;
+    font-size: 4vh;
+    margin: 50px 25px 100px 25px;
+}
+
+p{
+    margin: 50px 25px 100px 25px;
+    font-size: 3vh;
+    color: white;
+   
+}
+
+img{
+    width : 200px;
+    height: 200px;
+    transition: transform .1s;
+    margin: 20px;
+}
+
+img:hover{
+    -ms-transform: scale(4); 
+    -webkit-transform: scale(4); 
+    transform: scale(4);
+}
+
+.carte1{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.carte2{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+ul{
+    margin-top: 30vh;
+    font-size: 2.2vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fbda22;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    img {
+        width : 80px; 
+        height : 80px;
+    }
+    h1{
+        font-size: 3vh;
+    }
+
+    h2{
+        font-size: 2.5vh;
+    }
+    p{
+        font-size: 2vh;
+    }
+    .nav{
+        margin-top: -100px;
+  }
+}
