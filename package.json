@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/AndreaCastel/AndreaCastel.github.io/issues"
   },
-  "homepage": "https://github.com/AndreaCastel/AndreaCastel.github.io#readme",
-  "dependencies": {
-    "typewriter-effect": "^2.18.2"
-  }
+  "homepage": "https://github.com/AndreaCastel/AndreaCastel.github.io#readme"
 }
