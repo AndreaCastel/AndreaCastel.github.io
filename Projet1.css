@@ -130,6 +130,16 @@ input{
     height: 3vh;
 }
 
+button{
+    margin-top: 25px;
+    width: 20vw;
+    height: 5vh;
+    background-color: rgb(34, 233, 34);
+    color:black;
+    font-size: large;
+    font-weight: bolder;
+}
+
 textarea{
     background-color:green;
     width: 60vw;

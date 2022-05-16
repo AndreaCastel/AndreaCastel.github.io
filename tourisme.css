@@ -10,7 +10,6 @@ body{
     background-repeat: no-repeat;
 }
 
-
 .nav{
     margin-top: -200px;
     font-weight: bolder;
@@ -36,7 +35,6 @@ a:active {
     color: greenyellow;
 }
 
-
 .container1{
     display: flex;
     flex-direction: column;
@@ -55,6 +53,7 @@ a:active {
     margin-top: 0px;
     border-bottom: 10px solid #2e1b27;
 }
+
 ul{
     margin-top: 30vh;
     font-size: 2.2vh;
@@ -65,7 +64,6 @@ ul{
     color: #fbda22;
 }
 
-
 h1{
     color: #fbda22;
     font-weight: bolder;
@@ -75,7 +73,7 @@ h1{
 
 p{
     margin: 130px 25px 50px 25px;
-    font-size: 3vh;
+    font-size: 4vh;
     color: white;
 }
 
@@ -91,19 +89,28 @@ img:hover{
     -webkit-transform: scale(4); 
     transform: scale(4);
 }
+
 .images{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .lieuxinsolites{
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
     color: black;
 }
+
 .lieuxinsolites a{
     color: #fbda22;
     font-size: 3vw;
+}
+
+.lieuxinsolites a:hover{
+    color: red;
 }
 
 h2{
