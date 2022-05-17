@@ -13,7 +13,7 @@ body{
 
 
 .nav{
-    margin-top: 20px;
+    margin-top: 5px;
     font-weight: bolder;
     color: #fbda22;
     display: flex;
@@ -62,11 +62,11 @@ h1{
     color: #fbda22;
     font-weight: bolder;
     font-size: 5vh;
-    margin: 25px 25px 100px 25px;
+    margin: 50px 25px 100px 25px;
 }
 
 p{
-    margin: 25px 25px 100px 25px;
+    margin: 50px 25px 100px 25px;
     font-size: 4vh;
     color: white;
    
