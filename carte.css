@@ -61,13 +61,13 @@ a:active {
 h1{
     color: #fbda22;
     font-weight: bolder;
-    font-size: 4vh;
+    font-size: 5vh;
     margin: 50px 25px 100px 25px;
 }
 
 p{
     margin: 50px 25px 100px 25px;
-    font-size: 3vh;
+    font-size: 4vh;
     color: white;
    
 }
