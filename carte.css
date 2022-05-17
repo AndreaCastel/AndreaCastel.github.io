@@ -13,7 +13,7 @@ body{
 
 
 .nav{
-    margin-top: -10px;
+    margin-top: 50px;
     font-weight: bolder;
     color: #fbda22;
     display: flex;
@@ -43,7 +43,7 @@ a:active {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: -10vh;
+    margin-top: -20vh;
 }
 
 #header {
@@ -62,11 +62,11 @@ h1{
     color: #fbda22;
     font-weight: bolder;
     font-size: 5vh;
-    margin: 50px 25px 100px 25px;
+    margin: 25px 25px 100px 25px;
 }
 
 p{
-    margin: 50px 25px 100px 25px;
+    margin: 25px 25px 100px 25px;
     font-size: 4vh;
     color: white;
    
@@ -96,7 +96,7 @@ img:hover{
 }
 
 ul{
-    margin-top: 30vh;
+    margin-top: 10vh;
     font-size: 2.2vh;
     list-style: none;
     display: flex;
