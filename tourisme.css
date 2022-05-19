@@ -11,7 +11,7 @@ body{
 }
 
 .nav{
-    margin-top: -200px;
+    margin-top: -100px;
     font-weight: bolder;
     color: #fbda22;
     display: flex;
@@ -55,7 +55,7 @@ a:active {
 }
 
 ul{
-    margin-top: 30vh;
+    margin-top: 20vh;
     font-size: 2.2vh;
     list-style: none;
     display: flex;
@@ -68,18 +68,18 @@ h1{
     color: #fbda22;
     font-weight: bolder;
     font-size: 5vh;
-    margin: 100px 25px 100px 25px;
+    margin: 50px 25px 100px 25px;
 }
 
 p{
-    margin: 130px 25px 50px 25px;
+    margin: 50px 25px 50px 25px;
     font-size: 4vh;
     color: white;
 }
 
 img{
-    width : 200px; 
-    height : 200px;
+    width : 180px; 
+    height : 180px;
     transition: transform .1s;
     margin: 10px;
 }
@@ -120,7 +120,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .footer{
@@ -146,5 +146,5 @@ h2{
         font-size: 2vh;
     }
     .nav{
-        margin-top: -100px;
+        margin-top: -80px;
   }
